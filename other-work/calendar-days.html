@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calendar Days</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <style>
+
+    *               {
+                    box-sizing: border-box;
+                    }
+
+    body            {
+                    font-family: 'Open Sans', sans-serif;
+                    color: white;
+                    font-size: 16px;
+                    line-height: 1.2;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 1px;
+                    min-height: 100vh;
+                    overflow: hidden;
+                    }
+
+    .flexcontainer  {
+                    height: 400px;
+                    width: 400px;
+                    background-color: #512626;
+                    display: flex;  
+                    flex-flow: row wrap;
+                    text-align: center;
+                    position: absolute;
+                    }
+
+    .days:hover      {
+                    box-shadow: 2px 2px 3px 2px rgba(34, 26, 26, 0.2) inset;
+                    transition: 0.3s;
+                    width: 200px;
+                    height: 200px;
+                    transform: scale(0.95);
+                    }
+
+     .days    {
+                    
+                    height: 200px;
+                    width: 200px;
+                    background-color: #E27474;
+                    padding-top: 60px;          
+                    }
+
+                    
+
+    .numbers        {
+                    font-weight: bold;
+                    font-size: 60px;
+                    line-height: 1;
+                    display: block;
+                    }
+    </style>
+</head>
+<body>
+    <div class="flexcontainer">
+        <span class="days">Friday<span class="numbers">15</span></span>
+        <span class="days">Saturday<span class="numbers">16</span></span>
+        <span class="days">Sunday<span class="numbers">17</span></span>
+        <span class="days">Monday<span class="numbers">18</span></span>
+    </div>
+</body>
+</html>

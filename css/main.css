@@ -1,0 +1,200 @@
+/*****BASE STYLES*****/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*********GRID********/
+
+.full-width {
+width: 1200px;
+margin: 0 auto;
+
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+
+}
+
+.third-width {
+
+    width: 400px;
+    float: left;
+}
+
+/******HEADER SECTION*****/
+
+header {
+    height: 400px;
+    background: url("../img/header-pic.png");
+    background-size: cover;
+}
+
+header h1 {
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 55px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+header h1 span {
+    font-family: 'Lobster Two', cursive;
+    color: #0096A0;
+}
+
+header h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    clear: both;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Lobster Two', cursive;
+}
+
+nav {
+    float: right;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 65px 10px;
+    font-size: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+
+/******ABOUT SECTION*****/
+
+#about {
+    height: 600px;
+    background-color: #FF8E79;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 30px;
+}
+
+#about img {
+    height: 250px;
+    width: 200px;
+}
+
+#about p a {
+    float: right;
+    font-size: 10px;
+}
+
+/******PORTFOLIO SECTION*****/
+
+#portfolio {
+    height: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#portfolio h2 {
+    text-align: center;
+}
+
+#rogue img {
+    height: 250px;
+    width: 400px;
+}
+
+#jubilee img {
+    height: 150px;
+    width: 300px;
+    }
+
+#holstee img {
+    height: 400px;
+    width: 200px;
+        }
+
+#rogue {
+    padding: 20px;
+}
+
+#jubilee {
+    padding: 20px;
+}
+
+#holstee {
+    width: 300px;
+}
+
+/*********OTHER WORK************/
+
+#other-folio {
+    height: 600px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+#other-folio h2 {
+    font-size: 25px;
+}
+
+#calendar img {
+    height: 400px;
+    width: 400px;
+}
+
+#profile-card img {
+    height: 400px;
+    width: 400px;
+}
+
+
+/**********ETSY****************/
+
+#etsy {
+    height: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #FF8E79;
+}
+
+/******CONTACT SECTION*****/
+
+#contact {
+    height: 250px;
+    text-align: center;
+    background-color: #0096A0;
+    color: white;
+    padding: 30px;
+}
+
+/******FOOTER SECTION*****/
+
+#footer {
+    font-family: 'Open Sans', sans-serif;
+    height: 50px;
+    text-align: center;
+    background-color: #0096A0;
+    color: white;
+    font-size: 15px;
+}
+
+#footer p a {
+    float: right;
+    padding-right: 20px;
+    font-size: 10px;
+}
+
+
