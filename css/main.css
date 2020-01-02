@@ -78,10 +78,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li a:visited {
-    color: #0096A0;
-}
-
 
 /******ABOUT SECTION*****/
 
@@ -153,14 +149,14 @@ nav ul li a:visited {
     font-size: 15px;
 }
 
-#calendar img {
-    height: 400px;
-    width: 400px;
+#calendar iframe {
+    height: 450px;
+    width: 450px;
 }
 
-#profile-card img {
-    height: 400px;
-    width: 400px;
+#profile-card iframe {
+    height: 450px;
+    width: 450px;
 }
 
 
@@ -175,6 +171,11 @@ nav ul li a:visited {
     background-color: #FF8E79;
 }
 
+#etsy figure img {
+    height: 50%;
+    width: 50%;
+}
+
 /******CONTACT SECTION*****/
 
 #contact {
@@ -183,6 +184,10 @@ nav ul li a:visited {
     background-color: #0096A0;
     color: white;
     padding: 30px;
+}
+
+#contact .half-width a:visited {
+    color: white;
 }
 
 /******FOOTER SECTION*****/
@@ -201,5 +206,6 @@ nav ul li a:visited {
     padding-right: 20px;
     font-size: 10px;
 }
+
 
 
